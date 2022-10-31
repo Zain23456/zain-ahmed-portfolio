@@ -1,7 +1,13 @@
+import Image from '../assets/myPhoto.jpg'
+
 function Home() {
 
   return (
-    <h1>Home</h1>
+    <div>
+      <h1>Zain Ahmed</h1>
+      <img src={Image} alt='Zain Ahmed'/>
+      <p>Software Engineer</p>
+    </div>
   )
 }
 
