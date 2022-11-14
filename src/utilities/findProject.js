@@ -6,3 +6,5 @@ function findProject(str) {
     return hyphenateWords(project.title) === str
   })
 }
+
+export default findProject
