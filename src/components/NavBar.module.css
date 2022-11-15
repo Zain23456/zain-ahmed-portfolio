@@ -20,9 +20,12 @@
 }
 
 .navbar li {
-  margin-left: 35px;
-  text-align: right;
+  text-align: center;
+}
+
+.link {
   text-decoration: none;
+  font-family: 'Red Hat Display', sans-serif;
 }
 
 @media only screen and (max-width: 414px) {
