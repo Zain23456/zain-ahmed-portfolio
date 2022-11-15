@@ -1,0 +1,18 @@
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid black;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+.body > img {
+  width: 30%;
+  border-radius: 10%;
+  border: 3px solid black
+}
+
+.body > p {
+  font-weight: 600;
+}
