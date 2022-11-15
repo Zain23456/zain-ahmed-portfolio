@@ -1,0 +1,35 @@
+.navbar {
+  width: 100%;
+  min-height: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 21px;
+  background: white;
+  border-bottom: 1px solid rgb(200, 200, 200);
+}
+
+.navbar ul {
+  margin: 0;
+  width: 100%;
+  display: flex;
+  list-style: none;
+  font-weight: bold;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.navbar li {
+  margin-left: 35px;
+  text-align: right;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 414px) {
+  .navbar ul {
+    padding-left: 0px;
+  }
+  .navbar li {
+    font-size: 15px;
+  }
+}
